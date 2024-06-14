@@ -1,0 +1,74 @@
+.image-upload-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .image-upload-form div {
+    margin-bottom: 15px;
+  }
+  
+  .image-upload-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .image-upload-form input {
+    padding: 8px;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .image-upload-form .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .image-upload-form .image-preview {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .image-upload-form .image-thumbnail {
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .image-upload-form .image-thumbnail img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  
+  .image-upload-form .image-thumbnail button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 3px 6px;
+  }
+  
+  .image-upload-form .image-thumbnail button:hover {
+    background-color: darkred;
+  }
+  
+  .image-upload-form button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .image-upload-form button:hover {
+    background-color: #0056b3;
+  }
+  
+  .success-message {
+    color: green;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  

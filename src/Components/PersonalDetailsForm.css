@@ -1,0 +1,37 @@
+.personal-details-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .personal-details-form div {
+    margin-bottom: 15px;
+  }
+  
+  .personal-details-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .personal-details-form input {
+    padding: 8px;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .personal-details-form .error {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .personal-details-form button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .personal-details-form button:hover {
+    background-color: #0056b3;
+  }
+  
